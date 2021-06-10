@@ -258,3 +258,382 @@ p.font2{
 .question_Box:nth-child(even){
      margin-bottom: 25px;
 }
+
+/* 768pxまでの幅の場合に適応される */
+     #formatsize {
+        background:#f10010;
+    }
+
+}
+@media screen and (max-width: 480px) {
+/* 480pxまでの幅の場合に適応される */
+    #formatsize {
+        background-color:#F9DF2C;
+    }
+}
+@media screen and (max-width: 320px) {
+/* 320pxまでの幅の場合に適応される */
+    #formatsize {
+        background-color: #68B876;
+    }
+
+}
+
+/* youtube動画最適化*/
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 点滅 */
+.blinking{ 
+	-webkit-animation:blink 0.8s ease-in-out infinite alternate;
+    	-moz-animation:blink 0.8s ease-in-out infinite alternate;
+    	animation:blink 0.8s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* 背景画像 
+body {
+  background: url(https://nyonkichi3205.github.io/css/text_background.jpg);
+  background-repeat: repeat;
+}
+*/
+
+/* 文字の大きさ（中） */
+p.middle{
+  font-size: 20px;
+
+}
+
+/* ルビの大きさ行間 */
+ruby {
+  ruby-align: center;
+}
+rt {
+  letter-spacing: -.2em;
+  text-align: center;
+  font-size: 30%;
+}
+
+/* メモクリップ */
+.clip-box-a {
+ position: relative;
+ margin: 2em auto;
+ padding: 15px 35px 15px 25px;
+ width: 90%; /* ボックス幅 */
+ background-color: #fff; /* ボックス背景色 */
+ color: #555555; /* 文章色 */
+ font-weight: bold;
+ font-size: 2.5vw;
+ border: 1px solid #ccc; /* 枠線 */
+ box-shadow: 1px 1px 1px #acacac; /* 影の色 */
+}
+.clip-box-a::before {
+ position: absolute;
+ content: '';
+ top: -15px;
+ right: 10px;
+ height: 55px;
+ width: 15px;
+ border: 3px solid #555555; /*クリップ色 */
+ background-color: none;
+ border-radius: 12px;
+ box-shadow: 1px 1px 2px #999;
+ transform: rotate(10deg);
+ z-index: 1;
+}
+.clip-box-a::after {
+ position: absolute;
+ content: '';
+ top: 0px;
+ width: 10px;
+ right: 20px;
+ border: solid 5px #fff; /*背景色と同じ色にする*/
+ z-index: 2;
+}
+
+/* メモ（マスキングテープ） */
+.memo{
+ font-size:2vw;
+ font-weight:bold;
+ background-color: #fff;	/* 背景色 */
+ border: 1px solid #ccc; /* 線の太さ・種類・色 */
+ box-shadow:1px 1px 6px 0px #ccc;
+ -moz-box-shadow:1px 1px 6px 0px #ccc;
+ -webkit-box-shadow:1px 1px 6px 0px #ccc;
+ -o-box-shadow:1px 1px 6px 0px #ccc;
+ margin: 20px 5px; /* 外側の余白 上下・左右 */
+ padding: 30px 20px 20px 20px; /* 内側の余白 上・右・下・左 */
+ text-align:left;
+ position: relative;
+ z-index: 0;
+}
+.memo:after{
+ font-size:1.5vw;
+ font-weight:bold;
+ background-color: #d9ccb3; /* マステ部分の色1 */
+ background-image: linear-gradient(45deg, #dfd4be 25%, transparent 25%, transparent 75%, #dfd4be 75%, #dfd4be), linear-gradient(45deg, #dfd4be 25%, transparent 25%, transparent 75%, #dfd4be 75%, #dfd4be); /* マステ部分の色2 */
+ background-position: 0 0, 12px 12px;
+ background-size: 24px 24px;
+ border-left: 2px dotted rgba(255,255,255,0.9);
+ border-right: 2px dotted rgba(255,255,255,0.9);
+ box-shadow: 0 0 5px rgba(255,255,255,0.5);
+ content: 'メモ';
+ display: block;
+ margin: 0 0 10px 0;
+ padding: 5px 20px;
+ color: #fff;  /* マステ部分文字色 */
+ text-align: center;
+ position: absolute;
+ top: -10px;
+ left: 20px;
+ transform: rotate(-3deg);
+ -moz-transform: rotate(-3deg);
+ -webkit-transform: rotate(-3deg);
+ -o-transform: rotate(-3deg);
+}
+
+/* 黒板 */
+.blackboard-box{
+  background: #104300;
+  margin: 1em 0;
+  padding: 1em 1em 0 1em;
+  border: 8px solid #a60;
+  box-shadow: 2px 2px 4px #999, 2px 2px 2px #020 inset;
+}
+.blackboard-box p{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 0px 0px 2px #fff;
+  font-size: 2vw;
+}
+.chalk1{
+  display: block;
+  margin-top: 10px;
+  margin-left: 90%;
+  border: solid 3px #fff;
+  width: 15px;
+  border-radius: 3px 2px 0 2px;
+}
+.chalk2{
+  display: block;
+  margin-top: -6px;
+  margin-left: calc(90% - 30px);
+  border: solid 3px #ff69b4;
+  width: 20px;
+  border-radius: 3px 2px 0 2px;
+}
+.point {
+    color: #ffb1b3;
+    font-weight: bold;
+    border: 2px solid #ffb1b3;
+    font-size: 3vw;
+}
+
+
+/* 見出し（タイトル） */
+#title {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #ffffff;/*文字色*/
+  background: #ff6347;/*背景色*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  border-radius: 8px;
+  text-align: center;
+  border-left: solid 15px #ffaf58;
+  border-right: solid 15px #ffaf58;
+  font-size: 3vw;
+}
+
+/* 見出し（題目） */
+#theme {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-radius: 8px;
+  border-left: solid 10px #ff6347;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 3vw;
+  
+}
+
+
+/* 囲みタブ（内容） */
+.kakomi-tab2 {
+ position: relative;
+ margin: 3em auto;
+ padding: 1.2em 1em 1em;
+ font-weight: bold;
+ color: #555555;/*文字色*/
+ font-size: 25px;
+ width: 90%;
+ background-color: #fff; /*BOX背景色 */
+ border: 2px solid #d3d3d3; /* 枠線の太さ・色 */
+ box-shadow: 2px 2px 2px #ccc; /* 影の色 */
+ font-size: 3vw;
+}
+/* 囲みタブ（タイトル） */
+.title-tab2 {
+ position: absolute;
+ display: inline-block;
+ top: -31px; /*タブ調整 */
+ left: -2px; /*タブ調整 */
+ padding: 1px 10px;
+ height: 30px;
+ font-weight: bold;
+ font-size: 2vw;
+ color: #fff; /* タイトル色 */
+ background-color: #d3d3d3; /* タイトル背景色 */
+ border-radius: 8px 8px 0 0;
+}
+
+
+/* 折りたたみ（赤） */
+details {
+    border-radius: 6px;
+    padding: .5em .5em 0;
+    background: #da3c41;
+}
+summary {
+    font-weight: bold;
+    font-size:3vw;
+    color:#ffffff;
+    margin: -.3em -.3em 0;
+    padding: .5em;
+    text-align:center;
+}
+summary::-webkit-details-marker {
+    display:none;
+}
+
+
+
+/*背景（吹き出し）*/
+.line-bc {
+ margin: 2em auto;
+ padding: 1em 1.5em;
+ width: 90%; /*幅の調節*/
+ color: #777777; /* 文字色 */
+ background-color: #fff; /* 背景色 */
+ border: 4px solid #f6bfbc; /*線の太さ・色*/
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+ font-size: 2vw;
+
+}
+
+/*吹き出し（ねずボット）*/
+.balloon_l,
+.balloon_r{
+  margin: 30px 0;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start; /*縦位置を上揃え*/
+/*   align-items: center; */ /*縦位置を真ん中揃え*/
+}
+.balloon_r{
+  justify-content:flex-end;
+}
+.faceicon img{
+  width: 80px; /*任意のサイズ*/
+  height: auto;
+}
+.balloon_r .faceicon{
+  margin-left:25px;
+}
+.balloon_l .faceicon{
+  margin-right:25px;
+}
+.balloon_r .faceicon{
+  order:2 !important;
+}
+.says_l {
+  font-weight: bold;
+  max-width:500px; /*最大幅は任意*/
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 17px 13px 15px 18px;
+  border-radius: 12px;
+  background: #e0ffff;/*色は任意*/
+  box-sizing:border-box;
+  margin:0 !important;
+  line-height:1.5;
+
+/*   align-items: center; */
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.says_l p{
+  margin:8px 0 0 !important;
+}
+.says_l p:first-child{
+  margin-top:0 !important;
+}
+.says_l:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+/*   margin-top:-3px;  */
+}
+.balloon_l .says_l:after {
+  left: -26px;
+  border-right: 22px solid #e0ffff;
+}
+
+/*吹き出し（ロボにゃん）*/
+.says_r {
+  font-weight: bold;
+  max-width:500px; /*最大幅は任意*/
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 17px 13px 15px 18px;
+  border-radius: 12px;
+  background: #ffe4e1;/*色は任意*/
+  box-sizing:border-box;
+  margin:0 !important;
+  line-height:1.5;
+/*   align-items: center; */
+}
+.says_r p{
+  margin:8px 0 0 !important;
+}
+.says_r p:first-child{
+  margin-top:0 !important;
+}
+.says_r:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+/*   margin-top:-3px;  */
+}
+.balloon_r .says_r:after {
+  right: -26px;
+  border-left: 22px solid #ffe4e1;
+}
