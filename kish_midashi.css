@@ -3,6 +3,7 @@
 h2 {
   position: relative;
   padding: 1rem 2rem calc(1rem + 10px);
+  text-color: white;
 }
 
 h2:before {
