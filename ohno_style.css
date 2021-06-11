@@ -130,7 +130,7 @@ p.font2{
     cursor :pointer;
 }
 
-.hidden_box.a label {
+.hidden_box .acolor label {
     padding: 15px;
     color: #fff;
     font-weight: bold;
