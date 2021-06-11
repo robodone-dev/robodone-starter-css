@@ -3,7 +3,6 @@
 h2 {
   position: relative;
   padding: 1rem 2rem calc(1rem + 10px);
-  background: #fff100;
 }
 
 h2:before {
@@ -14,4 +13,8 @@ h2:before {
   height: 100%;
   content: '';
   border: 4px solid #000;
+}
+
+h2.prestarter {
+  background: #fc4903;
 }
