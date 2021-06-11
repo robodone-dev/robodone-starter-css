@@ -125,6 +125,7 @@ p.font2{
     padding: 15px;
     font-weight: bold;
     border: solid 2px black;
+    border-radius: 10px;
     cursor :pointer;
 }
 
