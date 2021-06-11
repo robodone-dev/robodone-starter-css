@@ -123,6 +123,8 @@ p.font2{
 /*ボタン装飾*/
 .hidden_box label {
     padding: 15px;
+    background-color: blue;
+    color: #fff;
     font-weight: bold;
     border: solid 2px black;
     border-radius: 10px;
