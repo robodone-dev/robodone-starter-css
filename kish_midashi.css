@@ -18,3 +18,23 @@ h2:before {
 .prestarter {
   background: #fc4903;
 }
+
+.starter {
+  background: #fc03e7;
+}
+
+.basic {
+  background: #039dfc;
+}
+
+.advance {
+  background: #fcce03;
+}
+
+.pro {
+  background: #37b039;
+}
+
+.master {
+  background: #7d25db;
+}
