@@ -17,25 +17,25 @@ h2:before {
 }
 
 .prestarter {
-  background: #fc4903;
+  background: #FF91AA;
 }
 
 .starter {
-  background: #fc03e7;
+  background: #FFAC2D;
 }
 
 .basic {
-  background: #039dfc;
+  background: #00B4DC;
 }
 
 .advance {
-  background: #fcce03;
+  background: #5ABE50;
 }
 
 .pro {
-  background: #37b039;
+  background: #5069BE;
 }
 
 .master {
-  background: #7d25db;
+  background: #6E6E6E;
 }
