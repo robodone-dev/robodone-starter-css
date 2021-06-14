@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+h1 {
+  position: relative;
+  padding: 0.35em 0.5em;
+  background: #b6e9ff;
+  color: #393939;
+}
+h1:before {
+  content: " ";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 16px);
+  width: calc(100% - 16px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #b2ddf0;
+}
+
 h2 {
   position: relative;
   padding: 1rem 2rem calc(1rem + 10px);
