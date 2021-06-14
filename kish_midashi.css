@@ -40,3 +40,34 @@ h2:before {
 .master {
   background: #6E6E6E;
 }
+
+
+.prestarter_2 {
+  color: black
+  background: #FF91AA;
+}
+
+.starter_2 {
+  color: black
+  background: #FFAC2D;
+}
+
+.basic_2 {
+  color: black
+  background: #00B4DC;
+}
+
+.advance_2 {
+  color: black
+  background: #5ABE50;
+}
+
+.pro_2 {
+  color: black
+  background: #5069BE;
+}
+
+.master_2 {
+  color: black
+  background: #6E6E6E;
+}
