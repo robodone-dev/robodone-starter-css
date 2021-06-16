@@ -6,6 +6,7 @@
   border: 3px solid #ff6185;
   border-radius: 5px;
   padding: 5px;
+  margin: 5px;
 }
 
 .starter {
@@ -14,6 +15,7 @@
   border: 3px solid #e88c00;
   border-radius: 5px;
   padding: 5px;
+  margin: 5px;
 }
 
 .basic {
@@ -22,6 +24,7 @@
   border: 3px solid #0085a3;
   border-radius: 5px;
   padding: 5px;
+  margin: 5px;
 }
 
 .advance {
@@ -30,6 +33,7 @@
   border: 3px solid #207018;
   border-radius: 5px;
   padding: 5px;
+  margin: 5px;
 }
 
 .pro {
@@ -38,6 +42,7 @@
   border: 3px solid #001e85;
   border-radius: 5px;
   padding: 5px;
+  margin: 5px;
 }
 
 .master {
@@ -46,4 +51,5 @@
   border: 3px solid #404040;
   border-radius: 5px;
   padding: 5px;
+  margin: 5px;
 }
