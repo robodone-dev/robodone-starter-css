@@ -125,6 +125,7 @@ p.font2{
     padding: 15px;
     color: #fff;
     font-weight: bold;
+    font-size:  2rem; 
     background-color: #E94727;
     /*border: solid 2px black;*/
     border-radius: 10px;
@@ -168,6 +169,7 @@ p.font2{
     padding: 15px;
     color: #fff;
     font-weight: bold;
+    font-size:  2rem; 
     /*border: solid 2px black;*/
     background-color: #00B4E9;
     border-radius: 10px;
@@ -211,6 +213,7 @@ p.font2{
     padding: 15px;
     color: #fff;
     font-weight: bold;
+    font-size:  2rem; 
     /*border: solid 2px black;*/
     background-color: #24B4BC;
     border-radius: 10px;
