@@ -130,6 +130,7 @@ p.font2{
     /*border: solid 2px black;*/
     border-radius: 10px;
     cursor :pointer;
+    box-shadow: 0 4px 6px #7e8183e6;
 }
 
 /*ボタンホバー時*/
@@ -174,6 +175,7 @@ p.font2{
     background-color: #00B4E9;
     border-radius: 10px;
     cursor :pointer;
+    box-shadow: 0 4px 6px #7e8183e6;
 }
 
 /*ボタンホバー時*/
@@ -218,6 +220,7 @@ p.font2{
     background-color: #24B4BC;
     border-radius: 10px;
     cursor :pointer;
+    box-shadow: 0 4px 6px #7e8183e6;
 }
 
 /*ボタンホバー時*/
