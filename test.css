@@ -76,7 +76,7 @@ a.btn-custom01:after {
   left: 1.5rem;
   margin: 0;
   padding: 0;
-  content: "\f0e0";
+  content: "\f02d";
 }
 
 .btn-custom01-front {
@@ -117,7 +117,7 @@ a.btn-custom01:hover:before {
 }
 
 a.btn-custom01:hover:after {
-  content: "\f2b6";
+  content: "\f518";
 }
 
 a.btn-custom01:active {
@@ -133,5 +133,5 @@ a.btn-custom01:active:before {
 }
 
 a.btn-custom01:active:after {
-  content: "\f2b6";
+  content: "\f518";
 }
