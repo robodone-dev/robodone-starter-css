@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+h3.prestarter {
+  color: white;
+  background: #FF91AA;
+  border: 3px solid #ff6185;
+  border-radius:5px;
+}
+
 h1 {
   position: relative;
   padding: 1rem 2rem calc(1rem + 10px);
