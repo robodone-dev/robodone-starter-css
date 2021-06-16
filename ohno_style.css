@@ -158,6 +158,11 @@ p.font2{
     opacity: 1;
 }
 
+.hidden_box_red--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
 /*全体*/
 .hidden_box_blue {
     margin: 2em 0;/*前後の余白*/
