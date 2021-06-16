@@ -11,7 +11,7 @@
 .starter {
   color: white;
   background: #FFAC2D;
-  border: 3px solid #ff6185;
+  border: 3px solid #e88c00;
   border-radius: 5px;
   padding: 5px;
 }
@@ -19,7 +19,7 @@
 .basic {
   color: white;
   background: #00B4DC;
-  border: 3px solid #ff6185;
+  border: 3px solid #0085a3;
   border-radius: 5px;
   padding: 5px;
 }
@@ -27,7 +27,7 @@
 .advance {
   color: white;
   background: #5ABE50;
-  border: 3px solid #ff6185;
+  border: 3px solid #207018;
   border-radius: 5px;
   padding: 5px;
 }
@@ -35,7 +35,7 @@
 .pro {
   color: white;
   background: #5069BE;
-  border: 3px solid #ff6185;
+  border: 3px solid #001e85;
   border-radius: 5px;
   padding: 5px;
 }
@@ -43,7 +43,7 @@
 .master {
   color: white;
   background: #6E6E6E;
-  border: 3px solid #ff6185;
+  border: 3px solid #404040;
   border-radius: 5px;
   padding: 5px;
 }
