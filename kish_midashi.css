@@ -5,7 +5,7 @@
   background: #FF91AA;
   border: 3px solid #ff6185;
   border-radius: 5px;
-  padding: 5px;
+  padding: 0px 10px;
   margin: 5px;
   font-size: 20px;
   width: 100%;
@@ -58,7 +58,6 @@
   border-radius: 5px;
   margin: 5px;
   width: 100%;
-  border-bottom: solid #404040;
 }
 
 /*
