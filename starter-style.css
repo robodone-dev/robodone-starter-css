@@ -1,1 +1,62 @@
+@charset "UTF-8";
 
+.prestarter {
+  color: white;
+  background: #FF91AA;
+  border: 5px solid #ff6185;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 26px;
+  width: 100%;
+  text-align: center;
+}
+
+.starter {
+  color: white;
+  background: #FFAC2D;
+  border: 3px solid #e88c00;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.basic {
+  color: white;
+  background: #00B4DC;
+  border: 3px solid #0085a3;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.advance {
+  color: white;
+  background: #5ABE50;
+  border: 3px solid #207018;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.pro {
+  color: white;
+  background: #5069BE;
+  border: 3px solid #001e85;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.master {
+  color: white;
+  background: #6E6E6E;
+  border: 3px solid #404040;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100%;
+}
