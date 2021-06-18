@@ -9,7 +9,7 @@ h3 {
   text-align: center;
   color: #e88c00;
   border-radius: 0 10px 10px 10px;
-  background: #ffedd1;
+  background: #FFAC2D;
   width: 324px;
 }
 
@@ -24,7 +24,7 @@ h3:before {
   content: '\ここがポイント！';
   color: #fff;
   border-radius: 10px 10px 0 0;
-  background: #e88c00;
+  background: #FFAC2D;
 }
 
 .prestarter {
