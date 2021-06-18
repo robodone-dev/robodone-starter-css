@@ -11,13 +11,13 @@ h3 {
 }
 
 h3:before {
-  font-size: 12px;
+  font-size: 15px;
   font-size: 1.5rem;
   position: absolute;
   top: -24px;
   left: 0;
   height: 24px;
-  padding: 1em;
+  padding: 0 1em;
   content: '\ここがポイント！';
   color: #fff;
   border-radius: 10px 10px 0 0;
