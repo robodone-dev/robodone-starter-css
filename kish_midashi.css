@@ -17,7 +17,7 @@ h3:before {
   top: -24px;
   left: 0;
   height: 24px;
-  padding: 0 1em;
+  padding: 1em;
   content: '\ここがポイント！';
   color: #fff;
   border-radius: 10px 10px 0 0;
