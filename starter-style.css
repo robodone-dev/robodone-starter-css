@@ -2,6 +2,31 @@
 
 /*-------ここから岸本-------*/
 
+h3 {
+  margin-top: 5px;
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #e88c00;
+  border-radius: 0 10px 10px 10px;
+  background: #ffedd1;
+  width: 324px;
+}
+
+h3:before {
+  font-size: 15px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  height: 24px;
+  padding: 0 1em;
+  content: '\ここがポイント！';
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  background: #e88c00;
+}
+
 .prestarter {
   color: white;
   background: #FF91AA;
