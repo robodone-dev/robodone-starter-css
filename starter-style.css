@@ -2,7 +2,7 @@
 
 /*-------ここから岸本-------*/
 
-h3 {
+h4 {
   margin-top: 5px;
   position: relative;
   padding: 1rem 2rem;
@@ -13,7 +13,7 @@ h3 {
   width: 324px;
 }
 
-h3:before {
+h4:before {
   font-size: 15px;
   font-size: 1.5rem;
   position: absolute;
