@@ -4,9 +4,9 @@ h3 {
   position: relative;
   padding: 1rem 2rem;
   text-align: center;
-  color: #ff6185;
+  color: #e88c00;
   border-radius: 0 10px 10px 10px;
-  background: #FFAC2D;
+  background: #ffedd1;
   width: 30%;
 }
 
@@ -21,7 +21,7 @@ h3:before {
   content: '\ここがポイント';
   color: #fff;
   border-radius: 10px 10px 0 0;
-  background: #ff6185;
+  background: #e88c00;
 }
 
 .prestarter {
