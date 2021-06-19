@@ -90,6 +90,7 @@ h4:before {
 }
 
 /*-------岸本ここまで-------*/
+/*-------ここから大野-------*/
 
 .box0 {
     padding: 0.5em 1em;
@@ -255,3 +256,290 @@ ul.menu li {
     height: auto;
     opacity: 1;
 }
+
+
+/*-------ここから牟田-------*/
+
+
+@charset "UTF-8";
+
+/* 汎用パーツ */
+
+.box0 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    background: #FFF;
+    border: solid 3px #FFF;
+    border-radius: 10px;/*角の丸み*/
+}
+
+.box0 p {
+    margin: 0; 
+    padding: 0;
+    border: solid 1px #FFF;
+    border-radius: 10px;/*角の丸み*/
+}
+
+
+.slide {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.slide img {
+    width: 90%;
+    height: auto; 
+    padding: 10px;
+    border: solid 3px #777777;
+    border-radius: 10px;/*角の丸み*/
+}
+
+
+
+/*背景（吹き出し）*/
+.line-bc {
+ margin: 2em auto;
+ padding: 1em 1.5em;
+ width: 90%; /*幅の調節*/
+ color: #333333; /* 文字色 */
+ background-color: #fff; /* 背景色 */
+ border: 4px solid #777777; /*線の太さ・色*/
+}
+
+/*吹き出し（共通パーツ）*/
+
+.balloon_l,
+.balloon_r{
+  margin: 3px 0;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start; /*縦位置を上揃え*/
+/*   align-items: center; */ /*縦位置を真ん中揃え*/
+  font-size: 16px;
+}
+
+.faceicon {
+  width:15%;
+}
+
+.faceicon img{
+  max-width: 100%; /* 任意のサイズ */
+  height: auto;
+}
+
+
+/*吹き出し（ねずボット）*/
+
+.balloon_r{
+  justify-content:flex-end;
+}
+
+.balloon_r .faceicon{
+  margin-left:15px;
+}
+
+.balloon_l .faceicon{
+  margin-right:15px;
+}
+
+.balloon_r .faceicon{
+  order:2 !important;
+}
+
+
+.says_l {
+  font-weight: bold;
+  width:65%; /*最大幅は任意*/
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 17px 13px 15px 18px;
+  border-radius: 12px;
+  background: #CCEFFF;/*色は任意*/
+  box-sizing:border-box;
+  margin:0 !important;
+  line-height:1.5;
+/*   align-items: center; */
+}
+
+.says_l p{
+  margin:8px 0 0 !important;
+}
+.says_l p:first-child{
+  margin-top:0 !important;
+}
+
+.says_l:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+/*   margin-top:-3px;  */
+}
+
+.balloon_l .says_l:after {
+  left: -26px;
+  border-right: 22px solid #CCEFFF;
+}
+
+
+/*吹き出し（ロボにゃん）*/
+.says_r {
+  font-weight: bold;
+  width:65%; /*最大幅は任意*/
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 17px 13px 15px 18px;
+  border-radius: 12px;
+  background: #ffe4e1;/*色は任意*/
+  box-sizing:border-box;
+  margin:0 !important;
+  line-height:1.5;
+/*   align-items: center; */
+}
+.says_r p{
+  margin:8px 0 0 !important;
+}
+.says_r p:first-child{
+  margin-top:0 !important;
+}
+.says_r:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+/*   margin-top:-3px;  */
+}
+.balloon_r .says_r:after {
+  right: -26px;
+  border-left: 22px solid #ffe4e1;
+}
+
+
+/* 吹き出し */
+
+
+.oneArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 1024px;
+  margin: 50px auto;
+  padding: 0 10px;
+}
+
+.oneArea .onebox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.oneArea .onebox {
+  margin-top:30px;    
+}
+
+.oneArea .onebox:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.oneArea .onebox .imgArea {
+  width: 16%;
+  position: relative;
+}
+
+.oneArea .onebox .imgArea img {
+  width: 100%;
+  max-width: 130px;
+  position: absolute;
+  top: 0;
+}
+
+.oneArea .onebox:nth-child(odd) .imgArea img {
+  left: 0;
+  padding-right: 50px;
+}
+
+.oneArea .onebox:nth-child(even) .imgArea img {
+  right: 0;
+  padding-left: 50px;
+}
+
+.oneArea .onebox .fukiArea {
+  width: 68%;
+}
+
+.oneArea .onebox .fukidasi {
+  width: 100%;
+  position: relative;
+  padding: 25px;
+  background-color: #CCEFFF;
+  font-size: 18px;
+  color: #231815;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.oneArea .onebox .fukidasi::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 22px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 30px 15px 0;
+  border-color: transparent #CCEFFF transparent transparent;
+}
+
+.oneArea .onebox:nth-child(odd) .fukidasi::before {
+  left: -20px;
+}
+
+.oneArea .onebox:nth-child(even) .fukidasi {
+  background-color: #ffe4e1;
+}
+
+.oneArea .onebox:nth-child(even) .fukidasi::before {
+  right: -20px;
+  border-color: transparent #ffe4e1 transparent transparent;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .oneArea .onebox .imgArea img {
+    max-width: 70%;
+  }
+  .oneArea .onebox .fukidasi {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .oneArea .onebox .fukidasi::before {
+    top: 8px;
+  }
+    
+    
+/*  .oneArea .nezubot {
+    margin-top: 20px
+  }
+     */
+    
+    
+}
+@media screen and (max-width: 420px) {
+  .oneArea {
+    margin: 30px auto;
+  }
+  .oneArea .onebox:nth-child(even) {
+    margin-top: 15px;
+  }
+  .oneArea .onebox .imgArea {
+    width: 20%;
+  }
+  .oneArea .onebox .fukidasi {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
+
