@@ -90,3 +90,17 @@ h4:before {
 }
 
 /*-------岸本ここまで-------*/
+
+.box0 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    background: #FFF;
+    border: solid 3px #FFF;
+    border-radius: 10px;/*角の丸み*/
+}
+.box0 p {
+    margin: 0; 
+    padding: 0;
+}
+
