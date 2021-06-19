@@ -257,6 +257,32 @@ ul.menu li {
     opacity: 1;
 }
 
+h2.mission {
+  position: relative;
+  display: inline-block;
+  padding: 0 2em;
+  text-align: center;
+}
+
+h2.mission:before,
+h2.mission:after {
+  font-family: 'Font Awesome 5 Free';
+  line-height: 1;
+  position: absolute;
+  top: calc(50% - .5em);
+  color: #eb6100;
+}
+
+h2.mission:before {
+  left: 0;
+  content: '\f101';
+}
+
+h2.mission:after {
+  right: 0;
+  content: '\f100';
+}
+
 
 /*-------ここから牟田-------*/
 
