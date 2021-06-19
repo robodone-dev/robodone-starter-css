@@ -104,3 +104,19 @@ h4:before {
     padding: 0;
 }
 
+.my-orange {color: #ff7f50}
+
+ul {
+  border: solid 2px #ff7f50;
+  background: #fffaf1;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+
+ul li {
+  font-size:2rem;
+  font-weight:bold;
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;/*ポチ消す*/
+}
