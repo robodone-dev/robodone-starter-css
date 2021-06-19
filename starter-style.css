@@ -106,14 +106,14 @@ h4:before {
 
 .my-orange {color: #ff7f50}
 
-ul {
+ul.menu {
   border-radius: 30px;
   background: #fffaf1;
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
 }
 
-ul li {
+ul.menu li {
   font-size:2rem;
   font-weight:bold;
   line-height: 1.5;
