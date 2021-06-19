@@ -283,6 +283,20 @@ h2.mission:after {
   content: '\f100';
 }
 
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #FFAC2D;/*文字色*/
+    background: #FFF;
+    border: solid 3px #FFAC2D;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
 
 /*-------ここから牟田-------*/
 
