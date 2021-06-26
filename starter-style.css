@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+/*---ハンバーガー用見出し---*/
+
+h1 {
+  border-style: none !important;
+}
+
+.title img {
+margin-right: 5px;
+}
+
+
+h1 .title {
+  font-size: 1.0em !important;
+  line-height: 1.0em;
+}
+
+/*---ハンバーガー用見出しここまで---*/
+
+
 /*-------ここから岸本-------*/
 
 h4 {
