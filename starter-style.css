@@ -343,7 +343,7 @@ h2.mission2 span:after {
     background: #fff3db;
 }
 .box29 .box-title {
-    font-size: 1.2em;
+    font-size: 1.8em;
     background: #FFAC2D;
     padding: 4px;
     text-align: center;
@@ -353,6 +353,7 @@ h2.mission2 span:after {
 }
 .box29 p {
     padding: 15px 20px;
+    font-size: 1.2em;
     margin: 0;
 }
 
