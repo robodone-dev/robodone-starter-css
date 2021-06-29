@@ -338,6 +338,24 @@ h2.mission2 span:after {
     padding: 0;
 }
 
+.box29 {
+    margin: 2em 0;
+    background: #fff3db;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #FFAC2D;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
 
 /*-------ここから牟田-------*/
 
