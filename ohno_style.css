@@ -1,4 +1,17 @@
-
+.g-slide{
+position: relative;
+overflow: hidden;
+margin: 15px 0 20px 0;
+padding-bottom: 50%;
+padding-top: 65px;
+}
+.g-slide iframe {
+width: 80%;
+height: 85%;
+position: absolute;
+top: 0;
+left: 0;
+}
 
 h1 {
   border-style: none !important;
@@ -70,6 +83,8 @@ ul.menu li:before {
   left : 1em;/*左端からのアイコンまでの距離*/
   color: #FFAC2D;/*アイコン色*/
 }
+
+
 
 
 
