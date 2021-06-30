@@ -1,6 +1,6 @@
 .box0 {
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 2em 10;
     font-weight: bold;
     background: #FFF;
     border: solid 3px #FFF;
@@ -12,7 +12,7 @@
 
 .box10 {
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 2em 10;
     font-weight: bold;
     background: #FFEFD5;
     border: solid 3px #FFF;
