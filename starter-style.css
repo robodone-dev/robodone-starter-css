@@ -73,7 +73,7 @@ h4:before {
   padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
   font-size: 3rem;
   color: #494949;/*文字色*/
-  background: #FFFAF0;/*背景色*/
+  background: #f4f3f1;/*背景色*/
   border-radius: 5px;
   border-left: solid 15px #FFAC2D;/*左線*/
   border-bottom: solid 3px #d7d7d7;/*下線*/
