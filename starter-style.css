@@ -19,14 +19,6 @@ h1 .title {
 /*---ハンバーガー用見出しここまで---*/
 
 
-h1 {
-  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
-  color: #494949;/*文字色*/
-  background: #f4f4f4;/*背景色*/
-  border-left: solid 5px #7db4e6;/*左線*/
-  border-bottom: solid 3px #d7d7d7;/*下線*/
-}
-
 
 /*-------ここから岸本-------*/
 
@@ -75,6 +67,15 @@ h4:before {
   padding: 20px;
   margin: 5px;
   width: 100%;
+}
+
+.starter-x {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  font-size:1.9rem;
+  color: #494949;/*文字色*/
+  background: #FDF5E6;/*背景色*/
+  border-left: solid 5px #FFAC2D;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
 }
 
 .basic {
