@@ -728,8 +728,8 @@ h2.mission2 span:after {
 .talking-left {
       float:left;
       border-width:2px;         /*枠線の太さ*/
-      border-color:lightpink;   /*枠線の色*/
-      background:lightpink;    /*背景色*/
+      border-color:#696969;   /*枠線の色*/
+      background:#fff;    /*背景色*/
 }
 
 /*左の吹き出し 三角*/
@@ -737,7 +737,7 @@ h2.mission2 span:after {
       position: absolute;
       content: '';
       border: 10px solid transparent;
-      border-right: 10px solid lightpink;  /*三角の線になる部分*/
+      border-right: 10px solid #696969;  /*三角の線になる部分*/
       top: 15px;
       left: -22px;
 }
@@ -746,7 +746,7 @@ h2.mission2 span:after {
       position: absolute;
       content: '';
       border: 10px solid transparent;
-      border-right: 10px solid lightpink;
+      border-right: 10px solid #fff;
       top: 15px;
       left: -19px;
 }
