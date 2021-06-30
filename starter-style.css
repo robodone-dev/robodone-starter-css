@@ -378,6 +378,7 @@ h2.mission2 span:after {
 
 /* 汎用パーツ */
 
+/*
 .box0 {
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -387,13 +388,13 @@ h2.mission2 span:after {
     border-radius: 10px;/*角の丸み*/
 }
 
+/*
 .box0 p {
     margin: 0; 
     padding: 0;
     border: solid 1px #FFF;
     border-radius: 10px;/*角の丸み*/
 }
-
 
 .slide {
     width: 90%;
