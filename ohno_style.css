@@ -32,7 +32,7 @@
   color: #FFEFD5;/*文字色*/
 }
 
-ul {
+ul.menu {
   border: solid 2px #FFAC2D;
   border-radius: 5px;
   padding: 0.5em 1em 0.5em 2.3em;
@@ -41,13 +41,13 @@ ul {
   font-weight: bold;
 }
 
-ul li {
+ul.menu li {
   line-height: 1.5;
   padding: 0.5em 0;
   list-style-type: none!important;
 }
 
-ul li:before {
+ul.menu li:before {
   
   font-family: "Font Awesome 5 Free";
   content: "\f138";/*アイコンの種類*/
@@ -55,5 +55,7 @@ ul li:before {
   left : 1em;/*左端からのアイコンまでの距離*/
   color: #FFAC2D;/*アイコン色*/
 }
+
+
 
 
