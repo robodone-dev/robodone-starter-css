@@ -37,6 +37,8 @@ ul {
   border-radius: 5px;
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 ul li {
@@ -53,4 +55,5 @@ ul li:before {
   left : 1em;/*左端からのアイコンまでの距離*/
   color: #FFAC2D;/*アイコン色*/
 }
+
 
