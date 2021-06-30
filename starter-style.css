@@ -71,7 +71,7 @@ h4:before {
 
 .starter-x {
   padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
-  font-size:1.9rem;
+  font-size: 3rem;
   color: #494949;/*文字色*/
   background: #FDF5E6;/*背景色*/
   border-left: solid 5px #FFAC2D;/*左線*/
