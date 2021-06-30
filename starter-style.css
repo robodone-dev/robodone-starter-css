@@ -702,7 +702,7 @@ h2.mission2 span:after {
 .talking-left_icon figcaption ,
 .talking-right_icon figcaption {
       padding:2px 0 0;
-      font-size:12px;
+      font-size:0.5rem;
       text-align:center;
 }
 
@@ -717,6 +717,7 @@ h2.mission2 span:after {
 
 .talking p {
       margin:0;
+      font-size:1.5rem
 }
 
 .talking p :last-child {
