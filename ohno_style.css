@@ -28,24 +28,35 @@ h1 .title {
   line-height: 1.0em;
 }
 
-.box0 {
+.box_white {
     padding: 0 1em;
     margin: 2em 10;
     font-weight: bold;
     background: #FFF;
 }
-.box0 p {
+.box_white p {
     margin: 0; 
     padding: 0;
 }
 
-.box10 {
+.box_gray {
     padding: 0.5em 1em;
     margin: 2em 10;
     font-weight: bold;
     background: #f6f6f6;
 }
-.box10 p {
+.box_gray p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box_orange {
+    padding: 0.5em 1em;
+    margin: 2em 10;
+    font-weight: bold;
+    background: #FFEFD5;
+}
+.box_orange p {
     margin: 0; 
     padding: 0;
 }
@@ -60,6 +71,12 @@ h1 .title {
   padding: 0.6em 0.5em;/*文字の上下 左右の余白*/
   font-size:0.5rem;
   color: #f6f6f6;/*文字色*/
+}
+
+.starter-c {
+  padding: 0.6em 0.5em;/*文字の上下 左右の余白*/
+  font-size:0.5rem;
+  color: #FFEFD5;/*文字色*/
 }
 
 ul.menu {
