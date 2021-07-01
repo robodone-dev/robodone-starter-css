@@ -32,6 +32,7 @@ h1 .title {
   background-image: url("https://drive.google.com/uc?id=14leli_r1pEL7w_RI9f0ds1Xk5j4JPvoz");
   background-size: 50%, 50%;
   background-repeat: repeat, repeat;
+  background-position: center;
 }
 
 .box_white {
