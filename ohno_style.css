@@ -349,7 +349,8 @@ margin: auto;
 
 .btn {
   cursor: pointer;
-  background: #27ae60;
+  /*background: #27ae60;*/
+  rgba(0, 0, 0, 0);
   display: inline-block;
   padding: .5em 1em;
   color: #fff;
@@ -367,7 +368,8 @@ margin: auto;
 }
 
 .btn--blue {
-  background: #2980b9;
+  /*background: #2980b9;*/
+  rgba(0, 0, 0, 0);
 }
 
 .btn--blue:hover,
