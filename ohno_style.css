@@ -142,6 +142,7 @@ margin: auto;
 }
  
 .hdStrSmall{
-    font-size: 1.5vw;
+   font-size: 1.5vw;
    opacity: 0.25; /* 55％不透明度(＝45％透過) */
+  color:glay;
 }
