@@ -252,8 +252,8 @@ margin: auto;
   bottom: 0;
   left: 0;
   text-align: left;
-  background-image: url("https://drive.google.com/uc?id=1pANAoEyHBa7sCbVh8xlPo5ZlRVDia1hY");
-  /*background: rgba(0,0,0, .4);*/
+  /*background-image: url("https://drive.google.com/uc?id=1pANAoEyHBa7sCbVh8xlPo5ZlRVDia1hY");*/
+  background: rgba(0,0,0, .4);
 
   transition: opacity .25s ease;
 }
