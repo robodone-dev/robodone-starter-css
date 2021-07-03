@@ -129,7 +129,7 @@ margin: auto;
   left        : 0;
   right       : 0;
   height      : 100px;
-  background  : linear-gradient(#55d955, #003300);
+  background  : linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
   z-index     : 10;
   text-align  : center;
   font-weight : bold;
@@ -142,7 +142,6 @@ margin: auto;
 }
  
 .hdStrSmall{
-  font-size   : 14px;
-  line-height : 30px;
-  color       : #fff;
+    font-size: 1vw;
+   opacity: 0.35; /* 55％不透明度(＝45％透過) */
 }
