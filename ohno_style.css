@@ -231,6 +231,7 @@ margin: auto;
   transform: rotate(-45deg);
 }
 
+/*
 @media screen and (max-width: 768px) {
 	
   .modal__inner {
@@ -239,7 +240,7 @@ margin: auto;
     box-sizing: border-box;
   }
 }
-
+:/
 
 /* [Object] Modal
  * =============================== */
