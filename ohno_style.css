@@ -157,8 +157,23 @@ margin: auto;
   bottom: 0;
   left: 0;
   text-align: left;
-  background: rgba(0,0,0, .9);
+  /*background: rgba(0,0,0, .9);*/
   transition: opacity .25s ease;
+}
+
+.modal::before {
+ display: block;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: url("https://drive.google.com/uc?id=1pANAoEyHBa7sCbVh8xlPo5ZlRVDia1hY");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  opacity: .9;  /* 透過度を適宜指定してください */
+  z-index: -1; 
 }
 
 .modal__bg {
