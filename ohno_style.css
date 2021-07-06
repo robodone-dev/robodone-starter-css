@@ -157,7 +157,7 @@ margin: auto;
   right: 0;
   bottom: 0;
   left: 0;
-  text-align: left;
+  text-align: left;  
   background: rgba(0,0,0, .8);
   transition: opacity .25s ease;
 }
@@ -177,17 +177,20 @@ margin: auto;
   z-index: -1; 
 }
 
+
 .modal__bg {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  cursor: pointer;
+  cursor: pointer;  
+  
 }
 
 .modal-state {
   display: none;
+  
 }
 
 .modal-state:checked + .modal {
@@ -199,20 +202,20 @@ margin: auto;
   top: 0;
 }
 
-.modal__inner {
+.modal__inner {  
   transition: top .25s ease;
   position: absolute;
   top: -20%;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 50%;
+  width: 80%;
   margin: auto;
   overflow: auto;
-  background: #fff;
+  background: rgba(0, 0, 0, 0);
   border-radius: 5px;
   padding: 1em 2em;
-  height: 50%;
+  height: 70%;
 }
 
 .modal__close {
@@ -230,7 +233,8 @@ margin: auto;
   position: absolute;
   width: 8px;
   height: 3.5em;
-  background: #ccc;
+  background: red;
+  font-weight: bold;
   display: block;
   transform: rotate(45deg);
   left: 50%;
@@ -248,19 +252,20 @@ margin: auto;
 }
 
 /*
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
 	
   .modal__inner {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 51%;
     box-sizing: border-box;
+    display: inline-block;
   }
 }
-:/
+
+
 
 /* Other
  * =============================== */
-
 
 
 .btn {
@@ -296,6 +301,7 @@ margin: auto;
 .btn--blue:active {
   background: rgba(0,0,0,0);
 }
+
 
 
 
