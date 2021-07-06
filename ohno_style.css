@@ -326,8 +326,8 @@ margin: auto;
 .modal__close:before {
   content: '';
   position: absolute;
-  width: 2px;
-  height: 1.5em;
+  width: 8px;
+  height: 3.5em;
   background: red;
   font-weight: bold;
   display: block;
