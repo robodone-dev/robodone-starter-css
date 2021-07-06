@@ -157,7 +157,7 @@ margin: auto;
   bottom: 0;
   left: 0;
   text-align: left;
-  /*background: rgba(0,0,0, .9);*/
+  background: rgba(0,0,0, .6);
   transition: opacity .25s ease;
 }
 
@@ -167,7 +167,7 @@ margin: auto;
   height: 100%;
   content: " ";
   position: absolute;
-  background: url("https://drive.google.com/uc?id=1pANAoEyHBa7sCbVh8xlPo5ZlRVDia1hY");
+  /*background: url("https://drive.google.com/uc?id=1pANAoEyHBa7sCbVh8xlPo5ZlRVDia1hY");*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
