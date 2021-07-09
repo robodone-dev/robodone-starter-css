@@ -101,7 +101,9 @@ display: inline;
 }
 
 
-
+.img_shadow{
+box-shadow: 2px 2px 10px;
+}
 
 
 
