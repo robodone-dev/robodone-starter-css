@@ -329,11 +329,11 @@ margin: auto;
 /* border: solid 5px #61CCE0;
 border-radius: 100px;
 box-shadow: 1px 3px 5px 0.3px rgba(0, 0, 0, 0.3); */
-min-width:80%;
+/* min-width:80%; */
 margin:10px 10px;
 display:inline-block;
 padding:5px 20px;
-  background: #fff;
+/*   background: #fff; */
 }
 .acd-label h3 {
   font-size:20px;
